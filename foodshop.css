@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+#home{
+    background: url(navbarimage.jpeg);
+}
+.color{
+    background-color: rgb(233, 171, 91);
+}
+.navbar-band{
+    font-size: 2rem ;
+    color: rgb(13, 235, 61);
+    text-decoration: none;
+    font-family: oswald,sans-serif;
+    font-weight: bolder;
+    background-color: blue;
+    border-radius: 60px;
+    width: 40px;
+    height: 50px;
+}
+
+.circle{
+    border-radius: 100px;
+    
+    background-color: rgb(128, 128, 128,0.5);
+    
+}
+.navbar-band:hover{
+    color: blue;
+
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: black;
+
+}
+.nav-link:hover{
+    color: rgb(218, 132, 34);
+}
+.search{
+    height: 40px;
+    border-radius: 60px;
+    width: 80%;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid red;
+}
+.btn0{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:60px ;
+    width: 40%;
+    height: 40px;
+    font-weight: 700;
+}
+.main{
+    background-image: url(lunchcopy1.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    background-size:cover
+    ;
+   
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: blue;
+}
+.main .btn1{
+    background-color: red;
+    color: white;
+    width: 35%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.about img{
+    width: 600px;
+    height: 400px;
+    
+}
+.about .btn1{
+    background-color: red;
+    color: white;
+    width: 35%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.news{
+    background-color: black;
+    color: white;    
+}
+.btn2{
+    background-color: white;
+    border: 2px solid white;
+    width: 100px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: -10px;    
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.fab{
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.apple{
+    background: linear-gradient(rgb(184, 127, 127,0.2),rgb(128, 128, 128,0.2)),url(zen-chung.jpg);
+    background-size: cover;
+    height:100vh ;
+    width: 100%;
+}
+.btn3{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:60px ;
+    width: 40%;
+    height: 40px;
+    font-weight: 700;
+
+}
+
+.product img{
+    height: 200px;
+}
